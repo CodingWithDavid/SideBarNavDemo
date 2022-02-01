@@ -1,0 +1,85 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>SideBarDemo</PageTitle>
+
+	<header>
+		<h1 class="logo">Coding With David</h1>
+		<h2 class="logoh2">Having Fun</h2>
+	</header>
+	<div class="side_container">
+	<div class="navigation @activeClass">
+		<ul>
+			<li>
+				<a href="#">
+					<span class="icon"><i class="fas fa-file-alt" aria-hidden="true"></i></span>
+					<span class="title">Logs</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="icon"><i class="far fa-comments" aria-hidden="true"></i></span>
+					<span class="title">Notifications</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+					<span class="title">User Maintenance</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="#">
+					<span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+					<span class="title">Setting</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>
+					<span class="title">Sign Out</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="icon"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
+					<span class="title">Help</span>
+				</a>
+			</li>
+		</ul>
+		<div class="toggle @activeClass @navClass" @onclick="ToggleMenu">
+		</div>
+	</div>
+
+    <main>
+        <article class="content px-4 @sizer">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code{
+
+	private string activeClass = "";
+	private string navClass = "";
+	private bool activeOn = false;
+	private string sizer = "";
+
+	public void ToggleMenu()
+	{
+		if(!activeOn)
+		{
+			activeClass = "active";
+			navClass = "side_contentActive";
+			activeOn = true;
+			sizer = "makeWider";
+		}
+		else
+		{
+			activeClass = "";
+			navClass = "";
+			activeOn = false;
+			sizer = "";
+		}
+	}
+}
