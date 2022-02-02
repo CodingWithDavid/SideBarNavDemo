@@ -1,6 +1,6 @@
-# Simple project to show how to use Cosmos DB with Entity framework
+# Project to demo a new side bar navigation view
 
-This is a simple looking application that will show how to create and use a Cosmos DB with Entity Framework.
+This is a sample project that shows to create a new side bar type navigation panel in Blazor
 
 *** PLEASE NOTE THIS REQUIRES .NET 6 and Visual Studio 2022 ***
 
@@ -9,32 +9,34 @@ by [David Gallivan](http://twitter.com/CodingwithDavid)
 
 ## Why
 
-I am consistently on the look out for a better DB solution for my projects.  I have tried several, while some have worked, I have hit limitations on each one I have tried.  I came across using Cosmos DB with Entity Framework.  Since Microsoft added a free tier for Cosmos I decided to give it a try.
+I like the current navigation view that is shipped with the current Blazor template, but after working with it so long, I wanted to try some new navigations.  This is my first attempt
 
 ## Getting Started
 
 1. Clone this repository
 
    ```Command Line
-   git clone https://github.com/CodingWithDavid/CosmosWithEntityFramework
-   cd CosmosWithEntityFramework
+   git clone https://github.com/CodingWithDavid/SideBarNavDemo
+   cd SideBarNavDemo
    ```
 
-1.	Open in Visual Studio or Visual Code
+1.	Open in Visual Studio 2022 or Visual Code
 a.	With Visual Code you will need to install the C# extensions
 2.	Press F5
 
 ## What's in the App
 
-1. Creating a Cosmos DB through Entity Framework
-2. Using the Azure Cosmos DB local Emulator
-3. Adding records to the database
-4. Added new entities to the database with out having to change the schema
+1. HTML and CSS for the visual navigation control
+2. C# is used to "Pin" the nav to the open position.
+3. Media queries are used to handle the responsiveness
+
+## Worth Noting
+Font awesome is used for the fonts.  I have removed the link to font awesome because it is specific to my account.  You can use your won link or replace the fonts with some other library.
 
 
 ## Problems or Suggestions
 
-[Open an issue here]( https://github.com/CodingWithDavid/CosmosWithEntityFramework/issues)
+[Open an issue here]( https://github.com/CodingWithDavid/SideBarNavDemo/issues)
 
 ## Thank You
 
