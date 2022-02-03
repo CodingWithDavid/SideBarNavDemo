@@ -111,6 +111,10 @@ header {
                 white-space: nowrap;
             }
 
+.menuActive {
+    background: #03A9F4;
+}
+
 .toggle {
     position: absolute;
     top: 0;

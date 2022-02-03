@@ -8,53 +8,41 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SideBarDemo
 build_property.RootNamespace = SideBarDemo
-build_property.ProjectDir = D:\CodingWithDavid\Sandbox\SideBarDemo\SideBarDemo\
+build_property.ProjectDir = D:\CodingWithDavid\Respoitories\SideBarDemo2\SideBarNavDemo\SideBarDemo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\CodingWithDavid\Sandbox\SideBarDemo\SideBarDemo
+build_property.MSBuildProjectDirectory = D:\CodingWithDavid\Respoitories\SideBarDemo2\SideBarNavDemo\SideBarDemo
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/CodingWithDavid/Sandbox/SideBarDemo/SideBarDemo/App.razor]
+[D:/CodingWithDavid/Respoitories/SideBarDemo2/SideBarNavDemo/SideBarDemo/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CodingWithDavid/Sandbox/SideBarDemo/SideBarDemo/Pages/Counter.razor]
+[D:/CodingWithDavid/Respoitories/SideBarDemo2/SideBarNavDemo/SideBarDemo/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CodingWithDavid/Sandbox/SideBarDemo/SideBarDemo/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CodingWithDavid/Sandbox/SideBarDemo/SideBarDemo/Pages/Index.razor]
+[D:/CodingWithDavid/Respoitories/SideBarDemo2/SideBarNavDemo/SideBarDemo/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CodingWithDavid/Sandbox/SideBarDemo/SideBarDemo/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CodingWithDavid/Sandbox/SideBarDemo/SideBarDemo/_Imports.razor]
+[D:/CodingWithDavid/Respoitories/SideBarDemo2/SideBarNavDemo/SideBarDemo/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CodingWithDavid/Sandbox/SideBarDemo/SideBarDemo/Shared/MainLayout.razor]
+[D:/CodingWithDavid/Respoitories/SideBarDemo2/SideBarNavDemo/SideBarDemo/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-4pb81krvyj
 
-[D:/CodingWithDavid/Sandbox/SideBarDemo/SideBarDemo/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-9c948cllqj
-
-[D:/CodingWithDavid/Sandbox/SideBarDemo/SideBarDemo/Pages/Error.cshtml]
+[D:/CodingWithDavid/Respoitories/SideBarDemo2/SideBarNavDemo/SideBarDemo/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CodingWithDavid/Sandbox/SideBarDemo/SideBarDemo/Pages/_Host.cshtml]
+[D:/CodingWithDavid/Respoitories/SideBarDemo2/SideBarNavDemo/SideBarDemo/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CodingWithDavid/Sandbox/SideBarDemo/SideBarDemo/Pages/_Layout.cshtml]
+[D:/CodingWithDavid/Respoitories/SideBarDemo2/SideBarNavDemo/SideBarDemo/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
